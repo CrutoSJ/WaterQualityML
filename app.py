@@ -17,14 +17,14 @@ with st.sidebar:
   selected = option_menu.option_menu(menu_title="Main Menu", options=["Home", "EDA"])
 
 if selected == "Home":
-  st.markdown("""<div style="line-height: 1.4; letter-spacing: 0.3px"> Predictive Analytics and Early disease detection using Machine Learning Models </div>""",
+  st.markdown("""<div style="line-height: 1.4; letter-spacing: 0.3px"> PREDICTIVE ANALYTICS AND EARLY DISEASE DETECTION USING MACHINE LEARNING MODELS </div>""",
                 unsafe_allow_html=True)
   
   st.markdown('\n')
 
   st.subheader('INTRODUCTION:')
 
-  st.markdown('I')
+  st.markdown('...')
 
   st.markdown('\n')
   

@@ -51,11 +51,7 @@ elif selected == "EDA":
   )
   if chart_select == 'Heart Disease dataset':
       df = pd.read_csv('HeartDiseasedataset.csv')
-      st.subheader('HeartDiseasedataset')
-  
-
-
-   
+      st.subheader('HeartDiseasedataset')   
   show_data = st.sidebar.checkbox("Show dataset")
 
   if show_data:
@@ -113,3 +109,39 @@ elif selected == "EDA":
         st.plotly_chart(plot)
     except Exception as e:
         print(e)
+elif selected == "EDA 2":
+  st.markdown("""<h style = " "> Exploratory Data Analysis </h>""", unsafe_allow_html = True)
+ 
+  st.sidebar.subheader("Visualisation Settings")
+
+
+  chart_select = st.sidebar.selectbox(
+    label = "Select the Data",
+    options = ['Heart Disease dataset']
+  )
+  if chart_select == 'Heart Disease dataset':
+      df = pd.read_csv('HeartDiseasedataset.csv')
+      st.subheader('HeartDiseasedataset')
+  if show_data:
+    st.write(df)
+
+  global numeric_columns
+  try:
+    numeric_columns  = list(df.select_dtypes(['float','int' ]).columns)
+  except Exception as e:
+    print(e)
+  chart_select = st.sidebar.selectbox(
+    label = "Select the Chart Type",
+    options = ['Scatterplots', 'Lineplots', 'Histogram', 'Boxplot']
+  )
+    if chart_select == 'Scatterplots':
+    st.sidebar.subheader('Scatterplot Settings')
+    try:
+        x_values = st.sidebar.selectbox('X axis', options = numeric_columns)
+        y_values = st.sidebar.selectbox('Y axis', options = numeric_columns)
+        plot = px.scatter(data_frame = df, x = x_values, y = y_values)
+        st.plotly_chart(plot)
+    except Exception as e:
+        print(e)
+  
+

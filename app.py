@@ -125,7 +125,7 @@ elif selected == "EDA 2":
   if show_data:
     st.write(df)
 
-  global numeric_columns
+  
   try:
     numeric_columns  = list(df.select_dtypes(['float','int' ]).columns)
   except Exception as e:

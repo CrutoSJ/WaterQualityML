@@ -49,7 +49,7 @@ elif selected == "EDA":
     label = "Select the Data",
     options = ['Heart Disease dataset']
   )
-  if chart_select == 'Hathaikheda dam':
+  if chart_select == 'Heart Disease dataset':
       df = pd.read_csv('HeartDiseasedataset.csv')
       st.subheader('HeartDiseasedataset')
   

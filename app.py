@@ -134,7 +134,7 @@ elif selected == "EDA 2":
     label = "Select the Chart Type",
     options = ['Scatterplots', 'Lineplots', 'Histogram', 'Boxplot']
   )
-    if chart_select == 'Scatterplots':
+  if chart_select == 'Scatterplots':
     st.sidebar.subheader('Scatterplot Settings')
     try:
         x_values = st.sidebar.selectbox('X axis', options = numeric_columns)

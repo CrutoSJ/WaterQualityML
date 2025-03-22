@@ -46,15 +46,13 @@ elif selected == "EDA":
 
 
   chart_select = st.sidebar.selectbox(
-    label = "Select the Parameters",
-    options = ['Hathaikheda dam', 'Sarangpani lake']
+    label = "Select the Data",
+    options = ['Heart Disease dataset']
   )
   if chart_select == 'Hathaikheda dam':
-      df = pd.read_csv('Hathaikheda.csv')
-      st.subheader('Hathaikheda dam')
-  elif chart_select == 'Sarangpani lake' :
-     df = pd.read_csv('SarangpaniLakefinal.csv')
-     st.subheader('Sarangpani lake')
+      df = pd.read_csv('HeartDiseasedataset.csv')
+      st.subheader('HeartDiseasedataset')
+  
 
 
    

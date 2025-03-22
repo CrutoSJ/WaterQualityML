@@ -137,10 +137,7 @@ elif selected == "EDA 2":
   if chart_select == 'Scatterplots':
     st.sidebar.subheader('Scatterplot Settings')
     try:
-        x_values = st.sidebar.selectbox('X axis', options = numeric_columns)
-        y_values = st.sidebar.selectbox('Y axis', options = numeric_columns)
-        plot = px.scatter(data_frame = df, x = x_values, y = y_values)
-        st.plotly_chart(plot)
+        print("hi")
     except Exception as e:
         print(e)
   

@@ -25,8 +25,7 @@ if selected == "Home":
   st.subheader('INTRODUCTION:')
 
   st.markdown('The World Health Organization (WHO) states that cardiovascular diseases cause 12 million deaths each year, making them a leading cause of death in the world. Despite the technological advances in medicine, the ability to predict CVD early and accurately remains a significant challenge.
-Heart disease encompasses a variety of cardiovascular disorders, including coronary artery disease, arrhythmias, and congenital heart defects. Given its pervasive impact on global mortality, early and accurate prediction mechanisms are essential. Machine learning (ML) has emerged as a transformative approach in healthcare, particularly in identifying complex relationships within large datasets. This study evaluates the performance of ML models in predicting heart disease, providing a comparative analysis to determine the most effective approach.
-')
+Heart disease encompasses a variety of cardiovascular disorders, including coronary artery disease, arrhythmias, and congenital heart defects. Given its pervasive impact on global mortality, early and accurate prediction mechanisms are essential. Machine learning (ML) has emerged as a transformative approach in healthcare, particularly in identifying complex relationships within large datasets. This study evaluates the performance of ML models in predicting heart disease, providing a comparative analysis to determine the most effective approach.')
 
   st.markdown('\n')
   

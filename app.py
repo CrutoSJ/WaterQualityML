@@ -36,7 +36,7 @@ if selected == "Home":
   
   st.subheader('THE PROJECT GOALS:')
 
-  st.markdown('To preprocess and analyze the Heart Disease dataset - Indicators of Heart Disease.                    To implement and evaluate five machine learning algorithms.                 To identify the most effective algorithm for heart disease prediction based on performance metrics. ')
+  st.markdown('To preprocess and analyze the Heart Disease dataset - Indicators of Heart Disease. \n To implement and evaluate five machine learning algorithms. \n  To identify the most effective algorithm for heart disease prediction based on performance metrics. ')
 
  
 elif selected == "EDA":

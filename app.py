@@ -24,19 +24,26 @@ if selected == "Home":
 
   st.subheader('INTRODUCTION:')
 
-  st.markdown('...')
+  st.markdown('The World Health Organization (WHO) states that cardiovascular diseases cause 12 million deaths each year, making them a leading cause of death in the world. Despite the technological advances in medicine, the ability to predict CVD early and accurately remains a significant challenge.
+Heart disease encompasses a variety of cardiovascular disorders, including coronary artery disease, arrhythmias, and congenital heart defects. Given its pervasive impact on global mortality, early and accurate prediction mechanisms are essential. Machine learning (ML) has emerged as a transformative approach in healthcare, particularly in identifying complex relationships within large datasets. This study evaluates the performance of ML models in predicting heart disease, providing a comparative analysis to determine the most effective approach.
+')
 
   st.markdown('\n')
   
   st.subheader('THE PROBLEM STATEMENT:')
 
-  st.markdown('...')
+  st.markdown('CVD often presents itself silently, which is referred to as "silent killers." The existing diagnostic systems are either inaccessible or incapable of predicting early onset. Despite advancements in medical diagnostics, the accurate and timely prediction of heart disease remains a challenge. Conventional techniques often rely on subjective assessments, which may lead to delays in treatment or misdiagnosis. Therefore, there is a pressing need for automated, data-driven methods to enhance predictive accuracy and reliability in heart disease detection. ML in healthcare can bridge this gap by analyzing large datasets and discovering hidden patterns that point towards heart disease.')
 
   st.markdown('\n')
   
   st.subheader('THE PROJECT GOALS:')
 
-  st.markdown('...')
+  st.markdown('To preprocess and analyze the Heart Disease dataset - Indicators of Heart Disease.
+
+To implement and evaluate five machine learning algorithms.
+
+To identify the most effective algorithm for heart disease prediction based on performance metrics.
+')
 
  
 elif selected == "EDA":
